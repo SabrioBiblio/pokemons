@@ -1,0 +1,16 @@
+.pokemons__main-wrapper{
+
+    &.grid-view{
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        grid-gap: 1rem;
+    
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+        }
+    
+        @media (max-width: 414px) {
+            grid-template-columns: 1fr;
+        }
+    }
+}

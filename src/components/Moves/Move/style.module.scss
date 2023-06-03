@@ -1,0 +1,14 @@
+.pokemonMove{
+    background-color: var(--background-color);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    font-size: 10px;
+    white-space: nowrap;
+    position: relative;
+    box-shadow: var(--box-shadow);
+    transition: 0.1s transform ease;
+
+    &:hover{
+        transform: scale(1.05);
+    }
+}

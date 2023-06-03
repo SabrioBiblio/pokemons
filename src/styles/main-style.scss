@@ -1,0 +1,16 @@
+@import '../assets/css/fonts.css';
+
+html{
+    background-color: var(--background-color);
+}
+
+body{
+    font-family: 'Wix', sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}

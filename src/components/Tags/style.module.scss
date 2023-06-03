@@ -1,0 +1,46 @@
+.pokemonTypesWrapper{
+    display: flex;
+    gap: 0.2rem;
+
+    & .pokemonType{
+        padding: 0.25rem;
+        border-radius: 0.5rem;
+        box-shadow: var(--box-shadow);
+        color: var(--font-main-color);
+        font-size: 12px;
+
+        &.water{
+            background-color: #007BFF;
+        }
+
+        &.poison{
+            background-color: #b97fc9;
+        }
+
+        &.normal{
+            background-color: #b0b0b0;
+        }
+
+        &.grass{
+            background-color: #9bcc50;
+        }
+
+        &.bug{
+            background-color: #81ac41;
+        }
+
+        &.fire{
+            background-color: #fd7d24;
+        }
+
+        &.flying{
+            background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+            background-color: #3dc7ef;
+        }
+
+        &.electric{
+            background-color: var(--extra-color-yellow);
+            color: #000
+        }
+    }
+}
