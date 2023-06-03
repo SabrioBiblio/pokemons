@@ -7,7 +7,7 @@ import { defineConfig } from 'vite'
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: '/',
+    base: '/pokemons',
     resolve: {
       alias: [{ find: '@components', replacement: path.resolve(__dirname, 'src/components') }],
     },
