@@ -19,4 +19,4 @@ npm run dev
 
 ### About
 
-Implemented logic of infinite pagination, search by name, detailed information when switching to the second page, display in a list or grid. Custom hooks for working with Reduch Toolkit and Infinite Scroll are also created
+Implemented logic of infinite pagination, search by name, detailed information when switching to the second page, display in a list or grid. Custom hooks for working with Redux Toolkit and Infinite Scroll are also created
